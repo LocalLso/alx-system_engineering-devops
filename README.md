@@ -1,2 +1,2 @@
-Bash basics and shell basics
+Bash basics and shell basics.
 \n
