@@ -1,0 +1,2 @@
+Bash basics
+\n
