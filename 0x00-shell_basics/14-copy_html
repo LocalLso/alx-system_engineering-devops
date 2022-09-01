@@ -1,2 +1,2 @@
 #!/bin/bash
-cp newer_version*.html [!*.html/home/vagrant/alx-system_engineering-devops] /home/vagrant/alx-system_engineering-devops 
+cp *.html  /tmp 
