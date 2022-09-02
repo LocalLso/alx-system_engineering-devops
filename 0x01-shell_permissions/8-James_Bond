@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ugo-wxr hello
+chmod ugo-wx hello
