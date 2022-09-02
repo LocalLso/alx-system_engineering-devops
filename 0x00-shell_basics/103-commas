@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -adm file*/\n
+ls -adm file* \
