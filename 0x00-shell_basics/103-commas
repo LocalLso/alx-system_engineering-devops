@@ -1,2 +1,2 @@
 #!/bin/bash
-dir -amF \
+dir -am --file-type \
