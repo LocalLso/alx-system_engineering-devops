@@ -1,2 +1,2 @@
 #!/bin/bash
-chown guilluame --reference=betty hello
+chown -v betty hello
