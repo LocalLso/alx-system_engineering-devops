@@ -1,2 +1,2 @@
 #!/bin/bash
-chown vincent:staff file*
+chown vincent:staff file* */
