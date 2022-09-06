@@ -1,1 +1,1 @@
-Bash basics, shell basics and shell redirections.
+Bash basics, shell basics, shell redirections and shell variables expansions.
