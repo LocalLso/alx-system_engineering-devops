@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'Hello, world, this is ALX SE programme' | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+tr 'A-Za-z' 'N-ZA-Mn-za-m'
