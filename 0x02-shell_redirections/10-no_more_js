@@ -1,2 +1,2 @@
 #!/bin/bash
-find /home/vagrant/alx-system_engineering-devops/0x02-shell_redirections -type f -name '*.js' -print -delete 
+find . -type f -name '*.js' -print -delete 
