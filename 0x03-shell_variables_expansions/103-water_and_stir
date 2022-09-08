@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $WATER+$STIR | $bc
+var=$WATER+$STIR echo ${var%\.*}
