@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Bash script that displays its own PID.
+
+ps -C bash -o pid= | tail -1 
