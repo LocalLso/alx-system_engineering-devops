@@ -1,5 +1,5 @@
 # Execute a command.
 
-exec {'killmenow':
+exec {'pkill -f killmenow':
   command => '/usr/bin/:/usr/local/bin/:/bin/',
 }
