@@ -6,7 +6,7 @@ add-apt-repository ppa:vbernat/haproxy-2.7
 apt-get update
 apt-get install -y haproxy=2.7.\*
 
-echo "ENABLED=1" >> /etc/default/haproxy
+echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
 mv /etc/haproxy/haproxy.cfg{,.original}
 touch /etc/haproxy/haproxy.cfg
 
