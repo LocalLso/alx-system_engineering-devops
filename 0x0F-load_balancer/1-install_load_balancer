@@ -10,7 +10,9 @@ echo "ENABLED=1" >> /etc/default/haproxy
 mv /etc/haproxy/haproxy.cfg{,.original}
 touch /etc/haproxy/haproxy.cfg
 
-printf %s "global
+server_config=\
+"
+global
     log 127.0.0.1 local0 notice
     maxconn 2000
     user haproxy
@@ -33,9 +35,10 @@ frontend myfrontend
     default_backend mybackend_servers
 backend mybackend_servers
     balance roundrobin
-    server web-01 52.91.203.47:80 check
-    server web-02 54.89.134.41:80 check
-" >> /etc/haproxy/haproxy.cfg
+    server 155852-web-01 52.91.203.47:80 check
+    server 155852-web-02 54.89.134.41:80 check
+"
+echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg
 
 sudo service haproxy start
 
