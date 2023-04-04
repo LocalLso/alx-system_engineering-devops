@@ -45,13 +45,6 @@ backend mybackend_servers
     balance roundrobin
     server 155852-web-01 52.91.203.47:80 check
     server 155852-web-02 54.89.134.41:80 check
-
-listen lb-01
-    bind 0.0.0.0:80
-    mode http
-    balance roundrobin
-    server 155852-web-01 52.91.203.47:80 check
-    server 155852-web-02 54.89.134.41:80 check
 " >> /etc/haproxy/haproxy.cfg
 
 sudo service haproxy start
